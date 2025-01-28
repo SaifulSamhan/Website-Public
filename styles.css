@@ -1,0 +1,15 @@
+/* CSS untuk video utama (layar) */
+#screen {
+    width: 100%; /* Video layar mengisi seluruh area */
+    height: 100vh; /* Menyesuaikan dengan tinggi layar */
+}
+
+/* CSS untuk video kamera kecil di sudut */
+#camera {
+    position: absolute;
+    top: 10px; /* Posisi kamera di atas */
+    right: 10px; /* Posisi kamera di kanan */
+    width: 160px; /* Ukuran kecil untuk kamera */
+    height: 120px;
+    border: 2px solid white; /* Border untuk memisahkan video kamera */
+}
